@@ -1,5 +1,3 @@
-"use strict";
-
 const User = function() {
 	let userName;
 	let userPassword;
@@ -25,3 +23,5 @@ const User = function() {
 	}
 	return publicApi;
 };
+
+export default User;
